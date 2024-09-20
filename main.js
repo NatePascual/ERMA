@@ -12,10 +12,11 @@ const headerContent =  `<header>
             </div>        
         </div>
         <nav>
-            <div class="hamburger-menu">
-                <span>&#9776;</span>
+            <div class="hamburger" id="hamburger">
+              &#9776;
             </div>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="nav-menu">
+               <li><button class="close-menu" id="close-menu">&times;</button></li>
                 <li><a href="../pages/home.html">Home</a></li>
                 <li>
                     <a href="#">Services</a>
@@ -58,7 +59,18 @@ const footerContent = `<footer>
 
 document.getElementById('header-placeholder').innerHTML = headerContent;
 document.getElementById('footer-placeholder').innerHTML = footerContent;
+
+document.getElementById('hamburger').addEventListener('click', function () {
+    var menu = document.getElementById('nav-menu');
+    menu.classList.toggle('active');
 });
+
+document.getElementById('close-menu').addEventListener('click', function () {
+    var menu = document.getElementById('nav-menu');
+    menu.classList.remove('active');
+});
+});
+
 
 function sendEmail() {
     var name = document.getElementById('name').value;
