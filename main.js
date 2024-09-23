@@ -17,7 +17,7 @@ const headerContent =  `<header>
             </div>
             <ul class="nav-menu" id="nav-menu">
                <li><button class="close-menu" id="close-menu">&times;</button></li>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li>
                     <a href="#">Services</a>
                     <ul class="submenu">
