@@ -9,3 +9,13 @@ Password: Password123!
 Gmail
 Email address: ermaengineeringconsultancy@gmail.com
 Password: Eesept2024!
+
+
+Paypal
+Email address: ermaengineers@gmail.com
+Password: Eesept2024!
+
+
+BlueHost
+Email address: ermaengineeringconsultancy@gmail.com
+Password: Eesept2024!

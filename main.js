@@ -17,19 +17,19 @@ const headerContent =  `<header>
             </div>
             <ul class="nav-menu" id="nav-menu">
                <li><button class="close-menu" id="close-menu">&times;</button></li>
-                <li><a href="../pages/home.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li>
                     <a href="#">Services</a>
                     <ul class="submenu">
                         <li>
                             <a href="#">Facade Engineering</a>
                             <ul class="submenu">
-                                <li><a href="../pages/quantity-take-off.html">Quantity Take off</a></li>
-                                <li><a href="../pages/shop-drawing.html">Shop Drawing</a></li>
-                                <li><a href="../pages/fabrication-drawing.html">Fabrication Drawings</a></li>
+                                <li><a href="quantity-take-off.html">Quantity Take off</a></li>
+                                <li><a href="shop-drawing.html">Shop Drawing</a></li>
+                                <li><a href="fabrication-drawing.html">Fabrication Drawings</a></li>
                             </ul>
                         </li>
-                        <li><a href="../pages/facade-design.html">Facade Design Consultancy</a></li>
+                        <li><a href="facade-design.html">Facade Design Consultancy</a></li>
                     </ul>
                 </li>
                 <li>
@@ -38,15 +38,15 @@ const headerContent =  `<header>
                         <li>
                             <a href="#">List of Completed Projects</a>
                             <ul class="submenu">
-                                <li><a href="../pages/new-zealand.html">New Zealand</a></li>
-                                <li><a href="../pages/usa.html">USA</a></li>
+                                <li><a href="new-zealand.html">New Zealand</a></li>
+                                <li><a href="usa.html">USA</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                 <li><a href="../pages/team.html">Team</a></li>
-                <li><a href="../pages/about.html">About</a></li>
-                <li><a href="../pages/contact-us.html">Contact</a></li>
+                 <li><a href="team.html">Team</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
             </ul>
         </nav>
     </div>
